@@ -1,0 +1,37 @@
+[project]
+name = "dmap"
+version = "0.1.0"
+description = "DMAP - A Distribution Map for Text"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "CC-BY-NC-4.0"
+authors = [
+    {name = "Your Name", email = "<redacted>"}
+]
+keywords = ["nlp", "text-analysis", "visualization", "machine-learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",  # For CC licenses
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "ipywidgets>=8.1.7",
+    "loguru>=0.7.3",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.2",
+    # your existing dependencies
+    "scipy>=1.16.1",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "transformers>=4.56.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
